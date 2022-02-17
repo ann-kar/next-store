@@ -14,13 +14,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to a (future) store built with <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        <nav className={styles.grid}>
+          <ul className={styles.menuList}>
+            <li className={styles.menuListItem}><a href="./about">About</a></li>
+            <li className={styles.menuListItem}><a href="./users">Users</a></li>
+            <li className={styles.menuListItem}><a href="./users/user">A user in &quot;users&quot;</a></li>
+          </ul>
+        </nav>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

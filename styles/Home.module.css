@@ -73,6 +73,17 @@
   max-width: 800px;
 }
 
+.menuList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.menuListItem {
+  padding: 1rem;
+}
+
 .card {
   margin: 1rem;
   padding: 1.5rem;
